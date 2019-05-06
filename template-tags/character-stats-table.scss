@@ -1,0 +1,54 @@
+.character-stats-table {
+
+  @media (screen and max-width: $breakpoint-min-tablet) {
+
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+    flex-direction: row;
+    overflow: visible;
+    table-layout: fixed;
+
+    thead tr:first-child {
+      display: none;
+    }
+
+    tbody, thead {
+
+      tr {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+
+    tbody {
+      order: 1;
+    }
+
+    thead {
+      order: 0;
+    }
+
+    tr {
+      float: left;
+      clear: both;
+    }
+
+    th, td {
+      display: block;
+      padding: 5px;
+      margin: 0;
+      height: 100%;
+    }
+
+    th {
+      width: 100px;
+      padding-top: 10px;
+    }
+
+    td {
+      width: 50px;
+    }
+  }
+}

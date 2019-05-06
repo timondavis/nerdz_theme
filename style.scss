@@ -1,0 +1,18 @@
+/**
+ * Theme Name: Nerdz
+ * Theme URL: http://www.creativemutagens.com
+ * Description: Creative Mutagens
+ * Author: Timon Davis
+ * Author URL: http://www.creativemutagens.com
+ * Template: twentysixteen
+ * Version: 0.0.1
+ * Text Domain: nerdz
+ */
+
+$breakpoint-max-mobile:  709px;
+$breakpoint-min-tablet:  710px;
+$breakpoint-max-tablet:  909px;
+$breakpoint-min-desktop: 910px;
+
+@import "./template-parts/cm-character";
+@import "./template-tags/character-stats-table";

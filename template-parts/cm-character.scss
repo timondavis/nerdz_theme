@@ -1,0 +1,39 @@
+.archive .type-cm-character {
+
+  @media (screen and max-width: $breakpoint-max-mobile) {
+
+    a img{
+      margin: 0 auto;
+    }
+  }
+
+  @media (screen and min-width: $breakpoint-min-tablet ) {
+
+    .post-thumbnail {
+      margin: 0;
+    }
+
+    .entry-body {
+
+      display: flex;
+      justify-content: space-evenly;
+
+      a {
+        display: flex;
+        flex: 10%;
+        align-content: center;
+        align-items: center;
+      }
+
+      table {
+        flex: 80%;
+      }
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-min-tablet) and (max-width: $breakpoint-max-tablet) {
+
+    margin-bottom: 3.5em;
+    padding: 0 7.6923%;
+  }
+}

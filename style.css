@@ -1,11 +1,83 @@
-/*
-Theme Name: Nerdz
-Theme URL: http://www.creativemutagens.com
-Description: Creative Mutagens
-Author: Timon Davis
-Author URL: http://www.creativemutagens.com
-Template: twentysixteen
-Version: 0.0.1
-Text Domain: nerdz
-*/
+/**
+ * Theme Name: Nerdz
+ * Theme URL: http://www.creativemutagens.com
+ * Description: Creative Mutagens
+ * Author: Timon Davis
+ * Author URL: http://www.creativemutagens.com
+ * Template: twentysixteen
+ * Version: 0.0.1
+ * Text Domain: nerdz
+ */
+@media (max-width: 709px) {
+  .archive .type-cm-character a img {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 710px) {
+  .archive .type-cm-character .post-thumbnail {
+    margin: 0;
+  }
+  .archive .type-cm-character .entry-body {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .archive .type-cm-character .entry-body a {
+    display: flex;
+    flex: 10%;
+    align-content: center;
+    align-items: center;
+  }
+  .archive .type-cm-character .entry-body table {
+    flex: 80%;
+  }
+}
+@media screen and (min-width: 710px) and (max-width: 909px) {
+  .archive .type-cm-character {
+    margin-bottom: 3.5em;
+    padding: 0 7.6923%;
+  }
+}
 
+@media (max-width: 710px) {
+  .character-stats-table {
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+    flex-direction: row;
+    overflow: visible;
+    table-layout: fixed;
+  }
+  .character-stats-table thead tr:first-child {
+    display: none;
+  }
+  .character-stats-table tbody tr, .character-stats-table thead tr {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .character-stats-table tbody {
+    order: 1;
+  }
+  .character-stats-table thead {
+    order: 0;
+  }
+  .character-stats-table tr {
+    float: left;
+    clear: both;
+  }
+  .character-stats-table th, .character-stats-table td {
+    display: block;
+    padding: 5px;
+    margin: 0;
+    height: 100%;
+  }
+  .character-stats-table th {
+    width: 100px;
+    padding-top: 10px;
+  }
+  .character-stats-table td {
+    width: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
